@@ -14,6 +14,6 @@ data = {
 response = requests.post(url, headers=headers, json=data)
 
 if response.status_code == 200:
-    print("签到成功:", response.json())
+    print("签到成功:")
 else:
     print("签到失败:", response.status_code, response.text)
