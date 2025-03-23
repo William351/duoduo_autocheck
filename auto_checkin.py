@@ -4,7 +4,7 @@ import requests
 url = "https://api.duoduo.link/api"
 headers = {
     "Content-Type": "application/json;charset=UTF-8",
-    "Ddtk": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcGVuaWQiOiJvZ0Jwb3hORTBreTVEUU4xTXVPaGdycG53ZE54IiwiaWF0IjoxNzM1OTU3Njg1LCJleHAiOjE3NTE1MDk2ODV9.3YJdkSJWFuk-HiCYcmVFHCF40uIN7MW1YSg8pdjRHYE"
+    "Ddtk": f"Bearer {os.getenv('DDTK_TOKEN')}"
 }
 data = {
     "params": "uyn50u+n1wUDDZA0UEfe681RIK3Wnss6l9wiY4R61wNTII6K/mKoI6p/Idm93Pp8QIKOeFt57sSDxw==",
