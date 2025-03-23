@@ -32,3 +32,5 @@ jobs:
       - name: Run check-in script
         run: |
           python auto_checkin.py
+        env:
+          DDTK_TOKEN: ${{ secrets.DDTK_TOKEN }}
