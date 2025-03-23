@@ -1,5 +1,6 @@
 # auto_checkin.py
 import requests
+import os
 
 url = "https://api.duoduo.link/api"
 headers = {
