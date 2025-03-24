@@ -11,7 +11,7 @@
 
 1. 跳转至自己的仓库的`Settings`->`Secrets and variables`->`Action`
 
-2. 添加1个`repository secret`，命名为``，其值对应账号的cookie值中的有效部分（获取方式如下）
+2. 添加1个`repository secret`，命名为`DDTK_TOKEN`，其值对应账号的cookie值中的有效部分（获取方式如下）
 
 - 在GLaDOS的签到页面按`F12`
 
