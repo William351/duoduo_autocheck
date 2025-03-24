@@ -11,18 +11,15 @@
 
 1. 跳转至自己的仓库的`Settings`->`Secrets and variables`->`Action`
 
-2. 添加1个`repository secret`，命名为`DDTK_TOKEN`，其值对应账号的cookie值中的有效部分（获取方式如下）
+2. 添加1个`repository secret`，命名为``，其值对应账号的Ddtk值中的有效部分（获取方式如下）
 
-- 在GLaDOS的签到页面按`F12`
+- 在朵朵校友圈网页端的按下'F12'
 
-- 切换到`Network`页面下，刷新
+- 切换到`Network`页面下，点击签到,出现名称为api的请求
 
+- 点击后在`Request Headers`下找到`Ddtk`，右键复制Ddtk的值即可
 
+  > 参考格式：Bearer ********************************************************
 
-- 点击第一个选项卡后在`Request Headers`下找到`Cookie`，右键复制cookie的值即可
-
-  > 参考格式：koa:sess=eyJ1c2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxAwMH0=; koa:sess.sig=xJkOxxxxxxxxxxxxxxxtnM;
-
-![图片加载失败](imgs/3.png)
 
 - 多账号请在 `COOKIES` 中 添加多个 `cookies` 中间使用 `&`连
